@@ -69,6 +69,14 @@ export const METAMASK: IProviderInfo = {
   check: "isMetaMask"
 };
 
+export const MADWALLET: IProviderInfo = {
+  id: "injected",
+  name: "MadWallet",
+  logo: Web3DefaultLogo,
+  type: "injected",
+  check: "isMadWallet"
+};
+
 export const SAFE: IProviderInfo = {
   id: "injected",
   name: "Safe",
