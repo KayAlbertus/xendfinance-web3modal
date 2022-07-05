@@ -266,5 +266,5 @@ export const BRAVE: IProviderInfo = {
   name: "Brave",
   logo: BraveLogo,
   type: "injected",
-  check: 'isBraveWallet'
+  check: "isBraveWallet"
 };
